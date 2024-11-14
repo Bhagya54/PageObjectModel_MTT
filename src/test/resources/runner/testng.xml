@@ -8,25 +8,9 @@
 	</listeners>
 
 
-	<!-- <test name="Login Test"> <classes> <class name="testcases.LoginTest" 
-		/> </classes> </test> <test name="User Reg Test"> <classes> <class name="testcases.UserReg" 
-		/> </classes> </test> -->
-
-	<test name="Bank Manager Login Test">
+	<test name="Find New Cars Test">
 		<classes>
-			<class name="testcases.BankManagerLoginTest" />
-		</classes>
-	</test>
-
-	<test name="Add Customer Test">
-		<classes>
-			<class name="testcases.AddCustomerTest" />
-		</classes>
-	</test>
-	
-	<test name="Open Account Test">
-		<classes>
-			<class name="testcases.AddAccountTest" />
+			<class name="testcases.FindNewCarsTest" />
 		</classes>
 	</test>
 

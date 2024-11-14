@@ -16,8 +16,5 @@ public class MarutiCarsPage extends BasePage{
 		
 	}
 
-	public void getCarTitle() {
-		WebElement title = driver.findElement(By.xpath("//h1"));
-		System.out.println("Car Title is: "+ title.getText());
-	}
+	
 }

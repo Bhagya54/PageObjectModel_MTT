@@ -12,12 +12,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
 
 import extentlisteners.ExtentListeners;
 import utility.ExcelReader;
@@ -55,15 +55,15 @@ public class BaseTest {
 	 * close browser
 	 */
 	
-	public static WebDriver driver;
-	public static FileInputStream fis;
-	public static Properties config = new Properties();
-	public static Properties or = new Properties();
-	public static ExcelReader excel;
-	public static Logger log=Logger.getLogger(BaseTest.class);
-	public static WebDriverWait wait;
-	@BeforeSuite
-	public void setUp() {
+	public static  WebDriver driver;
+	public  FileInputStream fis;
+	public  Properties config = new Properties();
+	public  Properties or = new Properties();
+	public  ExcelReader excel = new ExcelReader("./src/test/resources/excel/testData.xlsx");
+	public  Logger log=Logger.getLogger(BaseTest.class);
+	public  WebDriverWait wait;
+	
+	public void setUp(String browser) {
 		
 		try {
 			fis=new FileInputStream(".//src//test//resources//properties//log4j.properties");
@@ -97,16 +97,20 @@ public class BaseTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		excel = new ExcelReader("./src/test/resources/excel/testData.xlsx");
+		
 	
 		
-		if(config.getProperty("browser").equalsIgnoreCase("chrome")) {
+		if(browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 			log.info("Chrome Browser has been launched");
 		}
-		else if(config.getProperty("browser").equalsIgnoreCase("firefox")) {
+		else if(browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 			log.info("Firefox Browser has been launched");
+		}
+		else if(browser.equalsIgnoreCase("edge")) {
+			driver = new EdgeDriver();
+			log.info("Edge Browser has been launched");
 		}
 		
 		driver.manage().window().maximize();
@@ -201,7 +205,7 @@ public class BaseTest {
 	}
 	
 	
-	  @AfterSuite 
+	  @AfterMethod 
 	  public void tearDown() {
 		  
 		  driver.quit();

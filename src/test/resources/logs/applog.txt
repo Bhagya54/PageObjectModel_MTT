@@ -1,33 +1,5 @@
-INFO    2024-11-11 13:11:50,288 [main] base.BaseTest  - Config properties file has been loaded
-INFO    2024-11-11 13:11:50,289 [main] base.BaseTest  - OR properties file has been loaded
-INFO    2024-11-11 13:11:52,406 [main] base.BaseTest  - Chrome Browser has been launched
-INFO    2024-11-11 13:11:52,536 [main] base.BaseTest  - Maximized the browser
-INFO    2024-11-11 13:11:53,768 [main] base.BaseTest  - Opened the site url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
-INFO    2024-11-11 13:11:54,390 [main] base.BaseTest  - Clicked on : bankMgrLoginBtn_XPATH
-INFO    2024-11-11 13:11:55,117 [main] base.BaseTest  - Clicked on : addCustomerstmrBtn_XPATH
-INFO    2024-11-11 13:11:55,574 [main] base.BaseTest  - Typed in the textbox: firstName_XPATH with value as : abc
-INFO    2024-11-11 13:11:55,687 [main] base.BaseTest  - Typed in the textbox: lastName_XPATH with value as : xyz
-INFO    2024-11-11 13:11:55,831 [main] base.BaseTest  - Typed in the textbox: postalCode_XPATH with value as : 344567.0
-INFO    2024-11-11 13:11:55,911 [main] base.BaseTest  - Clicked on : addCstmrBtn_XPATH
-INFO    2024-11-11 13:12:00,027 [main] base.BaseTest  - Clicked on : addCustomerstmrBtn_XPATH
-INFO    2024-11-11 13:12:00,169 [main] base.BaseTest  - Typed in the textbox: firstName_XPATH with value as : sindhu
-INFO    2024-11-11 13:12:00,300 [main] base.BaseTest  - Typed in the textbox: lastName_XPATH with value as : k
-INFO    2024-11-11 13:12:00,431 [main] base.BaseTest  - Typed in the textbox: postalCode_XPATH with value as : 568890.0
-INFO    2024-11-11 13:12:00,491 [main] base.BaseTest  - Clicked on : addCstmrBtn_XPATH
-INFO    2024-11-11 13:12:04,626 [main] base.BaseTest  - Clicked on : addCustomerstmrBtn_XPATH
-INFO    2024-11-11 13:12:04,839 [main] base.BaseTest  - Typed in the textbox: firstName_XPATH with value as : suganya
-INFO    2024-11-11 13:12:05,023 [main] base.BaseTest  - Typed in the textbox: lastName_XPATH with value as : b
-INFO    2024-11-11 13:12:05,185 [main] base.BaseTest  - Typed in the textbox: postalCode_XPATH with value as : 678990.0
-INFO    2024-11-11 13:12:05,250 [main] base.BaseTest  - Clicked on : addCstmrBtn_XPATH
-INFO    2024-11-11 13:12:09,432 [main] base.BaseTest  - Clicked on : openAccountBtn_XPATH
-INFO    2024-11-11 13:12:09,876 [main] base.BaseTest  - Selected the dropdown: CstName_ID with visisble text as : abc xyz
-INFO    2024-11-11 13:12:10,006 [main] base.BaseTest  - Selected the dropdown: Currency_ID with visisble text as : Dollar
-INFO    2024-11-11 13:12:10,079 [main] base.BaseTest  - Clicked on : processBtn_XPATH
-INFO    2024-11-11 13:12:14,207 [main] base.BaseTest  - Clicked on : openAccountBtn_XPATH
-INFO    2024-11-11 13:12:14,343 [main] base.BaseTest  - Selected the dropdown: CstName_ID with visisble text as : sindhu k
-INFO    2024-11-11 13:12:14,498 [main] base.BaseTest  - Selected the dropdown: Currency_ID with visisble text as : Pound
-INFO    2024-11-11 13:12:14,579 [main] base.BaseTest  - Clicked on : processBtn_XPATH
-INFO    2024-11-11 13:12:18,700 [main] base.BaseTest  - Clicked on : openAccountBtn_XPATH
-INFO    2024-11-11 13:12:18,843 [main] base.BaseTest  - Selected the dropdown: CstName_ID with visisble text as : suganya b
-INFO    2024-11-11 13:12:18,984 [main] base.BaseTest  - Selected the dropdown: Currency_ID with visisble text as : Rupee
-INFO    2024-11-11 13:12:19,059 [main] base.BaseTest  - Clicked on : processBtn_XPATH
+INFO    2024-11-14 13:06:54,070 [main] base.BaseTest  - Config properties file has been loaded
+INFO    2024-11-14 13:06:54,070 [main] base.BaseTest  - OR properties file has been loaded
+INFO    2024-11-14 13:06:56,745 [main] base.BaseTest  - Edge Browser has been launched
+INFO    2024-11-14 13:06:56,924 [main] base.BaseTest  - Maximized the browser
+INFO    2024-11-14 13:06:59,845 [main] base.BaseTest  - Opened the site url https://www.carwale.com/
