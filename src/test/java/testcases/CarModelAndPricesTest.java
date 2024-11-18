@@ -15,10 +15,10 @@ import pages.TataCarsPage;
 import pages.ToyotaCarsPage;
 import utility.DataUtils;
 
-public class FindNewCarsTest extends BaseTest {
+public class CarModelAndPricesTest extends BaseTest {
 
 	@Test(dataProviderClass = DataUtils.class,dataProvider = "Data")
-	public void newCarTest(String browser,String run,String carBrand,String carTitle) {
+	public void carModelAndPrice(String browser,String run,String carBrand) {
 		if(run.equals("N")) {
 			throw new SkipException("Skipping the test as runmode is N");
 		}
@@ -50,7 +50,7 @@ public class FindNewCarsTest extends BaseTest {
 			
 		}
 		
-		Assert.assertTrue(BasePage.carBase.getCarTitle().equals(carTitle),"Car titles are not matching");
+		BasePage.carBase.getCarModelAndPrice();
 		
 		
 	}

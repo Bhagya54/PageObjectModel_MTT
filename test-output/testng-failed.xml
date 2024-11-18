@@ -10,9 +10,19 @@
       <class name="testcases.FindNewCarsTest">
         <methods>
           <include name="tearDown"/>
-          <include name="newCarTest" invocation-numbers="2"/>
+          <include name="newCarTest" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- testcases.FindNewCarsTest -->
     </classes>
   </test> <!-- Find New Cars Test(failed) -->
+  <test thread-count="5" name="Car Model And Prices Test(failed)">
+    <classes>
+      <class name="testcases.CarModelAndPricesTest">
+        <methods>
+          <include name="carModelAndPrice" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CarModelAndPricesTest -->
+    </classes>
+  </test> <!-- Car Model And Prices Test(failed) -->
 </suite> <!-- Failed suite [Learning TestNG] -->

@@ -68,8 +68,8 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	
 	
 
-		//test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName)
-		//		.build());
+		test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName)
+				.build());
 	
 		
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);

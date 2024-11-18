@@ -1,5 +1,5 @@
-INFO    2024-11-14 13:06:54,070 [main] base.BaseTest  - Config properties file has been loaded
-INFO    2024-11-14 13:06:54,070 [main] base.BaseTest  - OR properties file has been loaded
-INFO    2024-11-14 13:06:56,745 [main] base.BaseTest  - Edge Browser has been launched
-INFO    2024-11-14 13:06:56,924 [main] base.BaseTest  - Maximized the browser
-INFO    2024-11-14 13:06:59,845 [main] base.BaseTest  - Opened the site url https://www.carwale.com/
+INFO    2024-11-18 12:30:24,235 [main] base.BaseTest  - Config properties file has been loaded
+INFO    2024-11-18 12:30:24,235 [main] base.BaseTest  - OR properties file has been loaded
+INFO    2024-11-18 12:30:25,767 [main] base.BaseTest  - Edge Browser has been launched
+INFO    2024-11-18 12:30:25,874 [main] base.BaseTest  - Maximized the browser
+INFO    2024-11-18 12:30:27,844 [main] base.BaseTest  - Opened the site url https://www.carwale.com/

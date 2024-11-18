@@ -23,16 +23,17 @@ public class CarBase {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	public void getCarTitle() {
+	public String getCarTitle() {
 		//WebElement title = driver.findElement(By.xpath("//h1"));
 		System.out.println("Car Title is: "+ title.getText());
+		return title.getText();
 	}
 	
 	public void getCarModelAndPrice() {
 		
 		for(int i=0;i<carPrices.size();i++) {
-			System.out.println("Car Model: " + carModels.get(i));
-			System.out.println("Car Price: " + carPrices.get(i));
+			System.out.println("Car Model: " + carModels.get(i).getText());
+			System.out.println("Car Price: " + carPrices.get(i).getText());
 		}
 	}
 }
